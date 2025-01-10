@@ -1,0 +1,34 @@
+/* General settings */
+body {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
+    text-align: center; /* Center titles and main block */
+}
+
+/* Subtitle styling */
+.subtitle {
+    color: #006EB6;
+}
+
+/* Title styling */
+.title {
+    text-transform: uppercase; /* Ensure all caps */
+    letter-spacing: 2px; /* Increase letter spacing */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+/* Content block styling */
+.content {
+    max-width: 600px;
+    margin: 0 auto; /* Center the block */
+    text-align: left; /* Left align the text */
+    padding: 20px; /* Add space inside the block */
+}
+
+/* Logo image styling */
+.logo {
+    width: 150px; /* Resize logo to 150px */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space below the logo */
+}
