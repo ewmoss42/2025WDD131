@@ -1,34 +1,55 @@
-/* General settings */
-body {
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
+body, h1{
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
-    text-align: center; /* Center titles and main block */
 }
 
-/* Subtitle styling */
-.subtitle {
+h1{
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+p, li, i{font-size: 20px;}  
+
+li{
+    margin-bottom: 15px;
+}
+
+.subtitle{
     color: #006EB6;
+    letter-spacing: 3px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
-/* Title styling */
-.title {
-    text-transform: uppercase; /* Ensure all caps */
-    letter-spacing: 2px; /* Increase letter spacing */
-    margin-bottom: 20px; /* Add space below the title */
+.title{
+    text-align: center;
+    text-transform: uppercase;
 }
 
-/* Content block styling */
-.content {
+.everything{
     max-width: 600px;
-    margin: 0 auto; /* Center the block */
-    text-align: left; /* Left align the text */
-    padding: 20px; /* Add space inside the block */
+    margin: auto;   
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-/* Logo image styling */
-.logo {
-    width: 150px; /* Resize logo to 150px */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add space below the logo */
+.logo{
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 70px auto 10px auto;
+} 
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark .subtitle{
+    color: #4F9ACF;
 }
